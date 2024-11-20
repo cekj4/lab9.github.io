@@ -64,10 +64,10 @@ function songBonus(){
     let lyrics = "";
     for(let i=99;i>=0;i=i-1){
         if(i>1){
-            lyrics+= i + " bottle of beer on the wall, " + i + " bottles of beer<br>";
+            lyrics+= i + " bottles of beer on the wall, " + i + " bottles of beer<br>";
             lyrics+= "Take one down and pass it around, " + (i-1) + " more bottles of beer on the wall<br><br>";
         } else if(i===1){
-            lyrics+= i + " bottle of beer on the wall, " + i + " bottle of beer<br>"; 
+            lyrics+= i + " bottles of beer on the wall, " + i + " bottles of beer<br>"; 
             lyrics+= "Take one down and pass it around, no more bottles of beer on the wall<br><br>"; 
         } else{
             lyrics+="No more bottles of beer on the wall, no more bottles of beer<br>"; 
